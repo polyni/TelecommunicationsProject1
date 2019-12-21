@@ -563,7 +563,6 @@ m = signal_sinim(1,35, t)           # σήμα πληροφορίας
 c = signal_sinim(1,fs, t)             # φέρον σήμα σε διαμόρφωση
 s = (1.0 + 0.5*m)*c           # διαμορφωμένο σήμα
 
-
 grid(True)
 plt.xlabel("Time (sec)")
 plt.ylabel("Amplitude (V)")
